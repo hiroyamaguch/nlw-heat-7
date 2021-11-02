@@ -26,10 +26,5 @@
   </a>  
 </p>
 
-<p align="center">
-  <img alt="Web" src="./web/src/assets/screen.png">
-  <img alt="Mobile" src="./app/assets/screen.jpeg">
-</p>
-
 ## :memo: Sobre o projeto
 Durante a NLW Heat 7 foi desenvolvida uma aplicação utilizando React, React Native, NodeJs e Elixir para realizar o cadastro de mensagens durante a Do While 2021
