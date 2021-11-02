@@ -5,6 +5,8 @@ import io from 'socket.io-client';
 import styles from './styles.module.scss'
 import logoImg from '../../assets/logo.png'
 
+import { MESSAGES_EXAMPLE } from '../../utils/messages'
+
 type Message = {
   id: string;
   text: string;
@@ -14,7 +16,7 @@ type Message = {
   }
 }
 
-const messagesQueue: Message[] = [];
+const messagesQueue: Message[] = MESSAGES_EXAMPLE;
 
 const socket = io('http://localhost:8000');
 
